@@ -25,8 +25,8 @@ public enum Cell {
         return cellRepresentedBySymbol;
     }
 
-	// Comment
     public String getSymbol() {
+		/* Hello **/
         return symbol;
     }
 }
