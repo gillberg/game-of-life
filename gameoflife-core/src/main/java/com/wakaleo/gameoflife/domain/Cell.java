@@ -5,7 +5,7 @@ public enum Cell {
 
     private String symbol;
 
-    private Cell(final String initialSymbol) {
+    Cell(final String initialSymbol) {
         this.symbol = initialSymbol;
     }
 
@@ -25,6 +25,7 @@ public enum Cell {
         return cellRepresentedBySymbol;
     }
 
+	// Comment
     public String getSymbol() {
         return symbol;
     }
