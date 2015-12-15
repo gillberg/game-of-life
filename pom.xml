@@ -424,6 +424,8 @@
 							<version>${clover.version}</version>
 							<configuration>
 								<includesTestSourceRoots>false</includesTestSourceRoots>
+								<licenseLocation>${clover.license.file}</licenseLocation>
+								<generateHtml>true</generateHtml>
 								<generateXml>true</generateXml>
 							</configuration>
 					</plugin>
