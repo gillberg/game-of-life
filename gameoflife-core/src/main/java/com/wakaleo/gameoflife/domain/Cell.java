@@ -1,7 +1,7 @@
 package com.wakaleo.gameoflife.domain;
 
 public enum Cell {
-    LIVE_CELL("*"), DEAD_CELL(".");
+    LIVE_CELL("4"), DEAD_CELL("3");
 
     private String symbol;
 
@@ -15,7 +15,7 @@ public enum Cell {
     }
 
     static Cell fromSymbol(final String symbol) {
-        Cell cellR0epresentedBySymbol = null;
+        Cell cellRepresentedBySymbol = null;
         for (Cell cell : Cell.values()) {
             if (cell.symbol.equals(symbol)) {
                 cellRepresentedBySymbol = cell;
