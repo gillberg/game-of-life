@@ -1,5 +1,6 @@
 package com.wakaleo.gameoflife.domain;
 
+@author Fred
 public enum Cell {
     LIVE_CELL("*"), DEAD_CELL(".");
 
@@ -26,7 +27,6 @@ public enum Cell {
     }
 
     public String getSymbol() {
-		/* Hello **/
         return symbol;
     }
 }
