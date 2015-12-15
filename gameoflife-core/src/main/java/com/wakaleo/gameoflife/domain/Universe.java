@@ -1,6 +1,6 @@
 package com.wakaleo.gameoflife.domain;
 
-// import static com.wakaleo.gameoflife.domain.Cell.LIVE_CELL;
+import static com.wakaleo.gameoflife.domain.Cell.LIVE_CELL;
 import static com.wakaleo.gameoflife.domain.Cell.DEAD_CELL;
 
 /**
