@@ -46,7 +46,7 @@ public class Grid {
         return gridWriter.convertToString(cells);
     }
 
-    public int getLiveNeighboursAt(final int x, final int y) {
+    public final int getLiveNeighboursAt(final int x, final int y) {
         int liveNeighbourCount = 0;
         for (int xPosition = x - 1; xPosition <= x + 1; xPosition++) {
             for (int yPosition = y - 1; yPosition <= y + 1; yPosition++) {
