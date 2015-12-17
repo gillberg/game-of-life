@@ -37,7 +37,7 @@ public class Grid {
         return deadCells;
     }
 
-    private Cell[][] makeCellArrayFromAlel(final String gridContents) {
+    private Cell[][] makeCellArrayFrom(final String gridContents) {
         return gridReader.loadFrom(gridContents);
     }
 
