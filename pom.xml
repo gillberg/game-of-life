@@ -76,6 +76,11 @@
                     </execution>
                 </executions>
             </plugin>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.7.6-SNAPSHOT</version>
+			</plugin
             <!-- CODE COVERAGE -->
             <plugin>
                 <groupId>org.jacoco</groupId>
